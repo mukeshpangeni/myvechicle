@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>My vechicle</title>
+     <script src="index.js"></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="inner_container">    
+     <img  width="305" height="312" id="myPicture" alt="">
+    <div style=" width:68%; height:55px ; align-items: center; border-radius: 10px ;position: absolute;top: 74%;left: 50%;transform:translate(-50%,-50%); font-size: 30px;color: rgb(147, 255, 6);background-color:rgb(255, 72, 0)"> <span id="name" ></span> is  soon going to get it....... </div>
+    </div>
+  
+    
+    <script>
+   document.getElementById("name").innerHTML=localStorage.getItem("textvalue");
+       </script>    
+</body>
+</html>
+
+
+
